@@ -1,0 +1,14 @@
+# Configuration des articles du BlackMarket :
+
+# Insérez la probabilité en pourcentage d'obtenir une offre spéciale (d'obtenir une division de prix)
+ProbabiliteOffreSpeciale: 35
+
+# Insérez le nombre de divisions maximals du prix que vous pouvez avoir en un jour si il y'a une offre spéciale
+MaxDivisions: 4
+
+# Insérez le prix que l'accès au BMarket coûtera
+price: 10000
+
+# Insérez la liste des Items sous cette forme
+Items:
+  - "1:1000:ItemName1:5" # ID:PRICE:ITEM_NAME:COUNT

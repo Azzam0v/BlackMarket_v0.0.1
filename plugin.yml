@@ -1,0 +1,16 @@
+name: BlackMarket
+version: 0.0.1
+api: 5.0.0
+main: Azzam\BMarket\Main
+author: Azzam
+depend:
+  - EconomyPE
+  - PurePerms
+commands:
+  bmarket:
+    description: Permet d'avoir accès au Black market
+    usage: "/bmarket"
+    permission: bmarket
+permissions:
+  bmarket:
+    default: true
